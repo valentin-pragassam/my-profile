@@ -1,0 +1,226 @@
+html {
+  height: 100%;
+}
+
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+header {
+	width: 100%;
+	z-index: 2;
+	position: relative;
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+}
+
+nav ul{
+	padding: 0;
+	text-align: center;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	font-family: "Poppins", sans-serif;
+}
+
+.logo {
+	position: fixed;
+	float: left;
+	margin: 16px 36px;
+	color: white;
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+}
+
+nav.scroll ul {
+	background: black;
+	transition: 1s;
+}
+
+#logopp {
+	width: 10%;
+	height: 10%;
+}
+
+.row-first {
+	display: flex;
+	min-height: 100vh;
+	background-image: url("images/background1.jpg");
+
+}
+
+.NoCard {
+	margin: auto;
+	width: 50em;
+}
+
+h1 {
+
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 3em;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+
+}
+
+p {
+	font-family: 'Roboto',sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#intro{
+	font-size: 25px;
+}
+
+#mypp {
+	text-align: center;
+}
+
+a {
+	font-family: 'Roboto',sans-serif;
+	color: white;
+	text-align: center;
+	text-decoration:none;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+}
+
+#videowrapper{  
+    position: relative;
+    overflow: hidden;
+} 
+
+#fullScreenDiv{
+    min-height: 100vh; 
+    height: 100vh;
+    width: 100vw;
+}
+
+#video{    
+    width: 100vw; 
+    min-height: 100vh;
+    margin: auto;
+    display: block;
+}
+
+
+#videoMessage{
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inlinelist {
+	display: inline;
+	font-size: 80px;
+}
+
+.row-third {
+  	display: flex;
+  	min-height: 100vh;
+  	min-width: 100vw;
+  	margin: auto;
+	background-image: url("images/travel.jpg");
+	background-repeat: no-repeat;
+}
+
+.footer {
+	min-width: 100vw;
+	text-align: center;
+}
+
+.footer ul li {
+	display: inline-block;
+	padding: 30px;
+	font-size: 30px;
+	margin-right: 40px;
+}
+
+@media (max-width: 1000px) {
+	.container h1{
+		font-size: 2em;
+	}
+	.container h2{
+		font-size: 1.5em;
+	}
+	.container #intro{
+		font-size: 0.8em;
+	}
+	.container p{
+		font-size: 0.8em;
+	}
+	.container nav ul li a{
+		font-size: 1em;
+	}
+	.container #videoMessage ul li a{
+		font-size: 0.5em;
+		margin-right: 1em;
+	}
+}
+
+@media (max-width: 500px) {
+	.container h1{
+		font-size: 2em;
+	}
+	.container h2{
+		font-size: 1.5em;
+	}
+	.container #intro{
+		font-size: 0.5em;
+	}
+	.container p{
+		font-size: 0.5em;
+	}
+	.container nav ul li a{
+		font-size: 0.5em;
+	}
+	.container #videoMessage ul li a{
+		font-size: 0.5em;
+		margin-right: 1em;
+	}
+}
+
+
+
+
+
+
+
